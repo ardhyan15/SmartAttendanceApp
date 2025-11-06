@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">  <!-- Menggunakan foto sebagai background -->
+
+    <!-- Teks untuk menyapa pengguna -->
+    <TextView
+        android:id="@+id/tvWelcomeMessage"
+        android:text="Selamat datang, User"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Teks jam berjalan -->
+    <TextView
+        android:id="@+id/tvTime"
+        android:text="Waktu: "
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Teks hasil absen (akan diubah ketika tombol diklik) -->
+    <TextView
+        android:id="@+id/tvAbsenStatus"
+        android:text="Belum ada aktivitas absen"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Tombol Absen Masuk -->
+    <Button
+        android:id="@+id/btnAbsenMasuk"
+        android:text="Absen Masuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Tombol Absen Keluar -->
+    <Button
+        android:id="@+id/btnAbsenKeluar"
+        android:text="Absen Keluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
