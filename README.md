@@ -6,11 +6,49 @@ Aplikasi ini memiliki tiga bagian utama:
 - **Login Page**
 - **Dashboard Page**
 
----
+# screenshot
+
+screenshot_splash.png
+
+![WhatsApp Image 2025-11-07 at 04 09 29_0808ca10](https://github.com/user-attachments/assets/857deb27-d78f-46ef-9a26-3adcf9624abc)
+
+screenshot_login.png
+
+![WhatsApp Image 2025-11-07 at 04 09 30_3d6166fd](https://github.com/user-attachments/assets/78e39dfc-afb8-45c8-a6fb-e5adcf9a47f7)
+
+screenshot_dashboard.png
+
+![WhatsApp Image 2025-11-07 at 04 09 30_051a9c87](https://github.com/user-attachments/assets/5ac30d34-c29b-450f-8599-db75c6c96e64)
+
+![WhatsApp Image 2025-11-07 at 04 09 30_b0a46c2a](https://github.com/user-attachments/assets/b17d2eac-6708-452b-af34-fa01930a4163)
+
+![WhatsApp Image 2025-11-07 at 04 09 30_e997e84d](https://github.com/user-attachments/assets/175c3e9c-da4a-40c0-968d-ca254112aad3)
 
 ## 📜 Kode Lengkap Proyek
 
 ```java
+SmartAttendanceApp/
+│
+├─ app/
+│  └─ src/
+│     └─ main/
+│        ├─ java/com/example/smartattendanceapp/
+│        │   ├─ SplashActivity.java
+│        │   ├─ LoginActivity.java
+│        │   └─ DashboardActivity.java
+│        └─ res/layout/
+│            ├─ activity_splash.xml
+│            ├─ activity_login.xml
+│            └─ activity_dashboard.xml
+│
+├─ docs/
+│   └─ laporan_uts.pdf
+│
+└─ screenshots/
+    ├─ screenshot_splash.png
+    ├─ screenshot_login.png
+    └─ screenshot_dashboard.png
+
 // ================================
 // 📁 com/example/smartattendanceapp/SplashActivity.java
 // ================================
